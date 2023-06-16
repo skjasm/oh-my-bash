@@ -31,7 +31,7 @@ function prompt_histdt {
 
 # Dir: current working directory
 function prompt_dir {
-    prompt_segment blue black '\W'
+    prompt_segment blue black ${_omb_prompt_directory}
 }
 
 ######################################################################

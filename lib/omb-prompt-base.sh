@@ -9,6 +9,11 @@ CLOCK_THEME_PROMPT_PREFIX=''
 CLOCK_THEME_PROMPT_SUFFIX=''
 
 THEME_PROMPT_HOST='\H'
+if [[ "${OMB_SINGLE_DIR_PATH}" == "false" ]]; then
+    _omb_prompt_directory='\w'
+else
+    _omb_prompt_directory='\W'
+fi
 
 SCM_CHECK=${SCM_CHECK:=true}
 

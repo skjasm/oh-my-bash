@@ -73,7 +73,7 @@ function _omb_theme_PROMPT_COMMAND() {
   ps_uh_separator="${dark_grey}@${_omb_prompt_normal}"
   ps_hostname="$(set_host_color)\h${_omb_prompt_normal}"
 
-  ps_path="${_omb_prompt_olive}\w${_omb_prompt_normal}"
+  ps_path="${_omb_prompt_olive}${_omb_prompt_directory}${_omb_prompt_normal}"
   ps_scm_prompt="${light_grey}$(scm_prompt)"
 
   ps_user_mark="${_omb_prompt_normal} ${_omb_prompt_normal}"

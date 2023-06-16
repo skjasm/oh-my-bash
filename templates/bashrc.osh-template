@@ -11,6 +11,11 @@ export OSH=~/.oh-my-bash
 # it'll load a random theme each time that oh-my-bash is loaded.
 OSH_THEME="font"
 
+# Uncomment to show full path in prompt, rather than just the name of
+# the current directory.  (see also DIRTRIM variable in bash
+# documentation.)
+# OMB_SINGLE_DIR_PATH="false"
+
 # Uncomment the following line to use case-sensitive completion.
 # OMB_CASE_SENSITIVE="true"
 

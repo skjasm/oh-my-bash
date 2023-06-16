@@ -30,7 +30,7 @@ function _omb_theme_PROMPT_COMMAND {
   PS1="${_omb_prompt_white}${_omb_prompt_background_navy} \u${_omb_prompt_normal}"
   PS1+="${_omb_prompt_background_navy}@${_omb_prompt_brown}${_omb_prompt_background_navy}\h $(clock_prompt) ${_omb_prompt_reset_color}"
   PS1+="${_omb_prompt_normal} $(battery_charge)\n"
-  PS1+="${_omb_prompt_bold_black}${_omb_prompt_background_white} \w "
+  PS1+="${_omb_prompt_bold_black}${_omb_prompt_background_white} ${_omb_prompt_directory} "
   PS1+="${_omb_prompt_normal}$(scm_prompt)$(is_vim_shell)\n"
   PS1+="${_omb_prompt_white}>${_omb_prompt_normal} "
 }

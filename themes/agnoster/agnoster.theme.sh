@@ -393,7 +393,7 @@ function prompt_hg {
 
 # Dir: current working directory
 function prompt_dir {
-  prompt_segment blue black '\w'
+  prompt_segment blue black ${_omb_prompt_directory}
 }
 
 # Status:

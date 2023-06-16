@@ -106,7 +106,7 @@ function ___brainy_prompt_user_info {
 function ___brainy_prompt_dir {
 	color=$_omb_prompt_bold_olive
 	box="[|]"
-	info="\w"
+	info="${_omb_prompt_directory}"
 	printf "%s|%s|%s|%s" "${color}" "${info}" "${_omb_prompt_bold_white}" "${box}"
 }
 
